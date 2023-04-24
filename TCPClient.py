@@ -1,4 +1,3 @@
-import webbrowser
 from socket import *
 
 HOST = '127.0.0.1'
@@ -12,10 +11,8 @@ res = client.recv(4096).decode()
 
 header, body = res.split('\n\n', 1)
 if header.split()[1] == '200':
-  with open('index.html', 'wb') as file:
-    file.write(body.encode())
-  webbrowser.open_new_tab('http://' + HOST + ':' + str(PORT))
+    print(body)
 else:
-  print('ERROR')
+    print('ERROR')
 
 client.close()

@@ -1,6 +1,13 @@
 # Lab-Redes-2022.2-Etapa4
 Flávio Emanuel de Oliveira Santos (201900016974)<br/>
 Entrega 4 - fase de implementação e treinamento
+IMAGE ID: 75e18a38d069
+```
+$ docker images
+...
+entrega4  latest  75e18a38d069  38 hours ago 115MB
+...
+```
 
 Obs: Parâmetros definidos pelo usuário ou ambiente estão marcados com <>
 
